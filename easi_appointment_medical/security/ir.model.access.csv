@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+access_calendar_patient_affiliation,calendar.patient.affiliation,easi_medical_center.model_patient_affiliation,base.group_user,1,1,1,1
+access_calendar_medical_areas_attention,calendar.medical.areas.attention,easi_areas_attention.model_medical_areas_attention,base.group_user,1,1,1,1
+access_calendar_event_line,calendar.event.line,model_calendar_event_line,base.group_user,1,1,1,1

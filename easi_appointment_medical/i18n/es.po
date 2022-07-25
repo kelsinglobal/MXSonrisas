@@ -1,0 +1,116 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* easi_appointment_medical
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-30 17:54+0000\n"
+"PO-Revision-Date: 2022-06-30 17:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event__area_attention_id
+msgid "Area attention"
+msgstr "Área de atención"
+
+#. module: easi_appointment_medical
+#: model:ir.ui.menu,name:easi_appointment_medical.calendar_area_attention
+msgid "Areas of attention"
+msgstr "Área de atención"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__calendar_id
+msgid "Calendar"
+msgstr "Calendario"
+
+#. module: easi_appointment_medical
+#: model:ir.model,name:easi_appointment_medical.model_calendar_event
+msgid "Calendar Event"
+msgstr "Evento de calendario"
+
+#. module: easi_appointment_medical
+#: model:ir.model,name:easi_appointment_medical.model_calendar_event_line
+msgid "Calendar event line service"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event__doctor_id
+msgid "Doctor"
+msgstr "Doctor"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__id
+msgid "ID"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event__line_ids
+msgid "Line service"
+msgstr ""
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event__medical_center_id
+msgid "Medical center"
+msgstr "Centro médico"
+
+#. module: easi_appointment_medical
+#: model:ir.ui.menu,name:easi_appointment_medical.calendar_medical_center
+msgid "Medicals centers"
+msgstr "Centro médicos"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__price
+msgid "Price"
+msgstr "Precio"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: easi_appointment_medical
+#: model:ir.model.fields,field_description:easi_appointment_medical.field_calendar_event_line__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: easi_appointment_medical
+#: model_terms:ir.ui.view,arch_db:easi_appointment_medical.view_calendar_event_medical_form_inherited
+msgid "Service"
+msgstr "Servicio"
