@@ -1,0 +1,358 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* easi_medical_personnel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220307\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-27 06:45+0000\n"
+"PO-Revision-Date: 2022-05-27 06:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields.selection,name:easi_medical_personnel.selection__hr_employee__group_rh__ab+
+msgid "AB+"
+msgstr "AB+"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields.selection,name:easi_medical_personnel.selection__hr_employee__group_rh__ab-
+msgid "AB-"
+msgstr "AB-"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data004
+msgid "Accounting Assistant"
+msgstr "Asistente de Contabilidad"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data003
+msgid "Accounting Manager"
+msgstr "Gerente de Contabilidad"
+
+#. module: easi_medical_personnel
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_medical_personnel_catalogue
+msgid "Catalogues"
+msgstr "Catálogos"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__create_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__create_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__create_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__create_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__create_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__create_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__create_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__create_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__create_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__create_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__dni
+msgid "DNI"
+msgstr "DNI"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__display_name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__display_name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__display_name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__display_name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__display_name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data010
+msgid "Doctor"
+msgstr "Médico"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.actions.act_window,name:easi_medical_personnel.action_employee_categories
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_employee_categories
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_employee_category_tree
+msgid "Employee Categories"
+msgstr "Categorías de Empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__employee_category
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_employee_category_form
+msgid "Employee Category"
+msgstr "Categoría de Empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__name
+msgid "Employee Name"
+msgstr "Nombre del empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.actions.act_window,name:easi_medical_personnel.action_faculties
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_faculties
+msgid "Faculties"
+msgstr "Facultades"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__medical_faculty
+msgid "Faculty"
+msgstr "Facultad"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__father_lastname
+msgid "Father Lastname"
+msgstr "Apellido Paterno"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data005
+msgid "Finances Manager"
+msgstr "Gerente de Finanzas"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data008
+msgid "General Doctor"
+msgstr "Médico General"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__group_rh
+msgid "Group and Rh"
+msgstr "Grupo y Rh"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__id
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__id
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__id
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__id
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__id
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__id
+msgid "ID"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__medical_institution
+msgid "Institution"
+msgstr "Institución"
+
+#. module: easi_medical_personnel
+#: model:ir.actions.act_window,name:easi_medical_personnel.action_institutions
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_institutions
+msgid "Institutions"
+msgstr "Instituciones"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data009
+msgid "Internist"
+msgstr "Médico Internista"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__medical_personnel
+msgid "Is a medical Personnel"
+msgstr "Es Personal Médico"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__key
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__key
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__key
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__key
+msgid "Key"
+msgstr "Clave"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category____last_update
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession____last_update
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty____last_update
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty____last_update
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution____last_update
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__write_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__write_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__write_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__write_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__write_uid
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__write_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__write_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__write_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__write_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__write_date
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: easi_medical_personnel
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_faculty_tree
+msgid "Medical Faculties"
+msgstr "Facultades"
+
+#. module: easi_medical_personnel
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_faculty_form
+msgid "Medical Faculty"
+msgstr "Facultad"
+
+#. module: easi_medical_personnel
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_institution_form
+msgid "Medical Institution"
+msgstr "Institución"
+
+#. module: easi_medical_personnel
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_institution_tree
+msgid "Medical Institutions"
+msgstr "Instituciones"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__employee_id
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_medical_personnel
+msgid "Medical Personnel"
+msgstr "Médicos"
+
+#. module: easi_medical_personnel
+#: model:ir.actions.act_window,name:easi_medical_personnel.action_medical_personnel
+#: model:ir.ui.menu,name:easi_medical_personnel.medical_personnel_id
+msgid "Medical Personnel"
+msgstr "Médico"
+
+#. module: easi_medical_personnel
+#: model:ir.actions.act_window,name:easi_medical_personnel.action_specialties
+#: model:ir.ui.menu,name:easi_medical_personnel.menu_specialties
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_specialty_tree
+msgid "Medical Specialties"
+msgstr "Especialidades Médicas"
+
+#. module: easi_medical_personnel
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_specialty_form
+msgid "Medical Specialty"
+msgstr "Especialidad Médica"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__mother_lastname
+msgid "Mother Lastname"
+msgstr "Apellido Materno"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_category__name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_profession__name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_faculty__name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_institution__name
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_medical_specialty__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__employee_name
+msgid "Name"
+msgstr "Nombre(s)"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data001
+msgid "Neurologist"
+msgstr "Neurólogo"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data002
+msgid "Nurse"
+msgstr "Enfermero"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data006
+msgid "Pharmacist"
+msgstr "Farmacéutico"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data012
+msgid "Physiotherapist"
+msgstr "Fisioterapeuta"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__profession
+msgid "Profession"
+msgstr "Profesión"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__professional_dni
+msgid "Professional DNI"
+msgstr "Cedula Profesional"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_hr_employee__employee_specialties
+#: model_terms:ir.ui.view,arch_db:easi_medical_personnel.view_medical_personnel_form
+msgid "Specialties"
+msgstr "Especialidades"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__medical_specialty
+msgid "Specialty"
+msgstr "Especialidad"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data011
+msgid "Traumatologist"
+msgstr "Traumatólogo"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields.selection,name:easi_medical_personnel.selection__hr_employee__group_rh__unknown
+msgid "Unknown"
+msgstr "Desconocido"
+
+#. module: easi_medical_personnel
+#: model:ir.model.fields,field_description:easi_medical_personnel.field_employee_specialty__validity
+msgid "Validity"
+msgstr "Vigencia"
+
+#. module: easi_medical_personnel
+#: model:hr.job,name:easi_medical_personnel.job_position_data007
+msgid "Warehouse Assistant"
+msgstr "Asistente de Almacén"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_employee_category
+msgid "employee.category"
+msgstr "Categoría de Empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_employee_profession
+msgid "employee.profession"
+msgstr "Profesión"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_employee_specialty
+msgid "employee.specialty"
+msgstr "Especialidad del Empleado"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_medical_faculty
+msgid "medical.faculty"
+msgstr "Facultad"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_medical_institution
+msgid "medical.institution"
+msgstr "Institución"
+
+#. module: easi_medical_personnel
+#: model:ir.model,name:easi_medical_personnel.model_medical_specialty
+msgid "medical.specialty"
+msgstr "Especialidad"

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_calendar_event_medical_form_inherited" model="ir.ui.view">
+            <field name="name">calendar.event.form.calendar.medial</field>
+            <field name="model">calendar.event</field>
+            <field name="inherit_id" ref="calendar.view_calendar_event_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='user_id']" position="after">
+                     <field name="medical_center_id"  options="{'no_edit': True,'no_create':True, 'no_open': True}"/>
+                     <field name="area_attention_id"  domain="[('medical_center_id', '=', medical_center_id)]"
+                            options="{'no_edit': True,'no_create':True, 'no_open': True}"/>
+                     <field name="doctor_id" options="{'no_edit': True,'no_create':True, 'no_open': True}"/>
+                </xpath>
+                 <xpath expr="//notebook/page[@name='page_details']" position="after">
+                     <page name="line_service" string="Service">
+                          <field name="line_ids">
+                                <tree editable="bottom">
+                                     <field name="product_id" options="{'no_edit': True,'no_create':True, 'no_open': True}"/>
+                                     <field name="quantity"/>
+                                     <field name="price"/>
+                                </tree>
+                          </field>
+                     </page>
+                 </xpath>
+            </field>
+        </record>
+
+       <record id="calendar_event_gantt" model="ir.ui.view">
+            <field name="name">calendar.event.gantt</field>
+            <field name="model">calendar.event</field>
+            <field name="arch" type="xml">
+                <gantt date_start="start"
+                       date_stop="stop"
+                       string="Calendar">
+                </gantt>
+            </field>
+        </record>
+
+      <record id="calendar.action_calendar_event" model="ir.actions.act_window">
+            <field name="name">Meetings</field>
+            <field name="res_model">calendar.event</field>
+            <field name="view_mode">calendar,tree,form,gantt</field>
+            <field name="view_id" ref="calendar.view_calendar_event_calendar"/>
+            <field name="search_view_id" ref="calendar.view_calendar_event_search"/>
+            <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">
+                No meetings found. Let's schedule one!
+              </p><p>
+                The calendar is shared between employees and fully integrated with
+                other applications such as the employee leaves or the business
+                opportunities.
+              </p>
+            </field>
+      </record>
+
+       <menuitem id="calendar_medical_center"
+                   name="Medicals centers" parent="calendar.calendar_menu_config"
+                      action="easi_medical_center.action_medical_center" sequence="11" groups="base.group_no_one"/>
+
+        <menuitem id="calendar_area_attention"
+                   name="Areas of attention" parent="calendar.calendar_menu_config"
+                      action="easi_areas_attention.action_area_attention" sequence="12" groups="base.group_no_one"/>
+    </data>
+</odoo>

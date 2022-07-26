@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem name="Medical Personnel"
+        id="menu_medical_personnel"
+        sequence="20"
+         web_icon="easi_medical_personnel,static/description/icon.png"/>
+
+    <menuitem id="medical_personnel_id"
+        name="Medical Personnel"
+        action="action_medical_personnel"
+        parent="menu_medical_personnel"
+        sequence="1"/>
+
+    <menuitem id="menu_medical_personnel_catalogue"
+        name="Catalogues"
+        parent="menu_medical_personnel"
+        sequence="2" groups="hr.group_hr_user"/>
+
+    <menuitem id="menu_specialties"
+        action="action_specialties"
+        name="Medical Specialties"
+        sequence="1" parent="menu_medical_personnel_catalogue"/>
+
+    <menuitem id="menu_institutions"
+        action="action_institutions"
+        name="Institutions" parent="menu_medical_personnel_catalogue"
+        sequence="3"/>
+
+    <menuitem id="menu_faculties" name="Faculties"
+        action="action_faculties" parent="menu_medical_personnel_catalogue"
+        sequence="4"/>
+
+    <menuitem id="menu_employee_categories" name="Employee Categories"
+        parent="menu_medical_personnel_catalogue" sequence="5" action="action_employee_categories"/>
+</odoo>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- employee profession -->
+        <record id="employee_profession_data001" model="employee.profession">
+            <field name="name">Nurse</field>
+            <field name="key">001</field>
+        </record>
+        <record id="employee_profession_data002" model="employee.profession">
+            <field name="name">Biochemical Engineer </field>
+            <field name="key">002</field>
+        </record>
+        <record id="employee_profession_data003" model="employee.profession">
+            <field name="name">Surgeon </field>
+            <field name="key">003</field>
+        </record>
+        <record id="employee_profession_data004" model="employee.profession">
+            <field name="name">Graduated</field>
+            <field name="key">004</field>
+        </record>
+        <record id="employee_profession_data005" model="employee.profession">
+            <field name="name">Surgeon and Labor</field>
+            <field name="key">005</field>
+        </record>
+        <record id="employee_profession_data006" model="employee.profession">
+            <field name="name">Homeopath</field>
+            <field name="key">006</field>
+        </record>
+        <record id="employee_profession_data007" model="employee.profession">
+            <field name="name">Homeopath Surgeon</field>
+            <field name="key">007</field>
+        </record>
+        <record id="employee_profession_data008" model="employee.profession">
+            <field name="name">Medical Sciences and Health´s Degree</field>
+            <field name="key">008</field>
+        </record>
+        <record id="employee_profession_data009" model="employee.profession">
+            <field name="name">Computer Systems Engineer</field>
+            <field name="key">009</field>
+        </record>
+        <record id="employee_profession_data010" model="employee.profession">
+            <field name="name">Computing´s Degree</field>
+            <field name="key">010</field>
+        </record>
+        <record id="employee_profession_data011" model="employee.profession">
+            <field name="name">Electromechanical Engineer</field>
+            <field name="key">011</field>
+        </record>
+        <record id="employee_profession_data012" model="employee.profession">
+            <field name="name">Physiotherapist</field>
+            <field name="key">012</field>
+        </record>
+        <record id="employee_profession_data013" model="employee.profession">
+            <field name="name">Architect</field>
+            <field name="key">013</field>
+        </record>
+        <record id="employee_profession_data014" model="employee.profession">
+            <field name="name">Law Degree</field>
+            <field name="key">014</field>
+        </record>
+        <record id="employee_profession_data015" model="employee.profession">
+            <field name="name">Graphic Designer</field>
+            <field name="key">015</field>
+        </record>
+        <record id="employee_profession_data016" model="employee.profession">
+            <field name="name">Public Counter</field>
+            <field name="key">016</field>
+        </record>
+
+        <!-- medical specialties -->
+        <record id="medical_specialty_data001" model="medical.specialty">
+            <field name="name">Anesthesiology</field>
+            <field name="key">001</field>
+        </record>
+        <record id="medical_specialty_data002" model="medical.specialty">
+            <field name="name">Pathological Anatomy</field>
+            <field name="key">002</field>
+        </record>
+        <record id="medical_specialty_data003" model="medical.specialty">
+            <field name="name">Clinical Cardiology</field>
+            <field name="key">003</field>
+        </record>
+        <record id="medical_specialty_data004" model="medical.specialty">
+            <field name="name">Interventionist Cardiology</field>
+            <field name="key">004</field>
+        </record>
+        <record id="medical_specialty_data005" model="medical.specialty">
+            <field name="name">Pediatric Surgery</field>
+            <field name="key">005</field>
+        </record>
+        <record id="medical_specialty_data006" model="medical.specialty">
+            <field name="name">General Surgery</field>
+            <field name="key">006</field>
+        </record>
+        <record id="medical_specialty_data007" model="medical.specialty">
+            <field name="name">Plastic and Reconstructive Surgery</field>
+            <field name="key">007</field>
+        </record>
+
+        <!--        Institutions-->
+        <record id="medical_institution_data001" model="medical.institution">
+            <field name="name">MAISON DE SANTE LIMA CLINIC</field>
+            <field name="key">001</field>
+        </record>
+        <record id="medical_institution_data002" model="medical.institution">
+            <field name="name">lIMA INTERNATIONAL CLINIC</field>
+            <field name="key">002</field>
+        </record>
+        <record id="medical_institution_data003" model="medical.institution">
+            <field name="name">SAN FELIPE CLINIC CAMPUS JESUS MARIA</field>
+            <field name="key">003</field>
+        </record>
+        <record id="medical_institution_data004" model="medical.institution">
+            <field name="name">VALLE SUR CLINIC</field>
+            <field name="key">004</field>
+        </record>
+        <record id="medical_institution_data005" model="medical.institution">
+            <field name="name">AREQUIPA CLINIC</field>
+            <field name="key">005</field>
+        </record>
+        <record id="medical_institution_data006" model="medical.institution">
+            <field name="name">SANTA TERESA CLINIC</field>
+            <field name="key">006</field>
+        </record>
+
+        <!--        Faculties-->
+        <record id="medical_faculty_data001" model="medical.faculty">
+            <field name="name">Cayetano Heredia Peruvian University</field>
+            <field name="key">001</field>
+        </record>
+        <record id="medical_faculty_data002" model="medical.faculty">
+            <field name="name">Major of San Marcos National University</field>
+            <field name="key">002</field>
+        </record>
+        <record id="medical_faculty_data003" model="medical.faculty">
+            <field name="name">San Martin de Porres University</field>
+            <field name="key">003</field>
+        </record>
+        <record id="medical_faculty_data004" model="medical.faculty">
+            <field name="name">Center of Peru National University</field>
+            <field name="key">004</field>
+        </record>
+        <record id="medical_faculty_data005" model="medical.faculty">
+            <field name="name">Medical College of Peru</field>
+            <field name="key">005</field>
+        </record>
+        <record id="medical_faculty_data006" model="medical.faculty">
+            <field name="name">Obstetrician College of Peru</field>
+            <field name="key">006</field>
+        </record>
+        <record id="medical_faculty_data007" model="medical.faculty">
+            <field name="name">Nurses College of Peru</field>
+            <field name="key">007</field>
+        </record>
+
+<!--        Employee categories-->
+        <record id="employee_category_data001" model="employee.category">
+            <field name="name">Administrative</field>
+        </record>
+        <record id="employee_category_data002" model="employee.category">
+            <field name="name">Doctor</field>
+        </record>
+        <record id="employee_category_data003" model="employee.category">
+            <field name="name">Physiotherapist</field>
+        </record>
+        <record id="employee_category_data004" model="employee.category">
+            <field name="name">Nurse</field>
+        </record>
+
+<!--        Job Positions-->
+        <record id="job_position_data001" model="hr.job">
+            <field name="name">Neurologist</field>
+        </record>
+        <record id="job_position_data002" model="hr.job">
+            <field name="name">Nurse</field>
+        </record>
+        <record id="job_position_data003" model="hr.job">
+            <field name="name">Accounting Manager</field>
+        </record>
+        <record id="job_position_data004" model="hr.job">
+            <field name="name">Accounting Assistant</field>
+        </record>
+        <record id="job_position_data005" model="hr.job">
+            <field name="name">Finances Manager</field>
+        </record>
+        <record id="job_position_data006" model="hr.job">
+            <field name="name">Pharmacist</field>
+        </record>
+        <record id="job_position_data007" model="hr.job">
+            <field name="name">Warehouse Assistant</field>
+        </record>
+        <record id="job_position_data008" model="hr.job">
+            <field name="name">General Doctor</field>
+        </record>
+        <record id="job_position_data009" model="hr.job">
+            <field name="name">Internist</field>
+        </record>
+        <record id="job_position_data010" model="hr.job">
+            <field name="name">Doctor</field>
+        </record>
+        <record id="job_position_data011" model="hr.job">
+            <field name="name">Traumatologist</field>
+        </record>
+        <record id="job_position_data012" model="hr.job">
+            <field name="name">Physiotherapist</field>
+        </record>
+
+    </data>
+</odoo>

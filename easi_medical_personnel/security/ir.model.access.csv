@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+"access_medical_specialties_group_hr_user","medical_specialties_group_hr_user","model_medical_specialty","hr.group_hr_user",1,1,1,1
+"access_medical_institutions_group_hr_user","medical_institutions_group_hr_user","model_medical_institution","hr.group_hr_user",1,1,1,1
+"access_medical_faculties_group_hr_user","medical_faculties_group_hr_user","model_medical_faculty","hr.group_hr_user",1,1,1,1
+"access_employee_categories_group_hr_user","employee_categories_group_hr_user","model_employee_category","hr.group_hr_user",1,1,1,1
+"access_hr_employee_lines_group_hr_user","hr_employee_lines_group_hr_user","model_hr_employee_line","hr.group_hr_user",1,1,1,1
+"access_employee_professions_group_hr_user","employee_professions_group_hr_user","model_employee_profession","hr.group_hr_user",1,1,1,1
+"access_resource_resource_group_hr_user","resource_resource_group_hr_user","resource.model_resource_resource","hr.group_hr_user",1,1,1,1
